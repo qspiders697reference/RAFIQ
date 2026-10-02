@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Abdul Rafiq Khan - Computer Science Graduate specializing in Data Science, AI/ML, Machine Learning, Deep Learning, and Computer Vision.">
+    <meta name="keywords" content="Abdul Rafiq Khan, Data Science, AI/ML, Computer Science, Machine Learning Engineer, Portfolio, Python, SQL, Deep Learning">
+    <meta name="author" content="Abdul Rafiq Khan">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Abdul Rafiq Khan | AI/ML & Data Science Specialist">
+    <meta property="og:description" content="Portfolio of Abdul Rafiq Khan - CS Graduate specializing in AI/ML, Computer Vision, and Data Engineering.">
+    <meta property="og:type" content="website">
+
+    <title>Abdul Rafiq Khan | AI/ML & Data Science Engineer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Header / Sticky Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" aria-label="Abdul Rafiq Khan Monogram">
+                <span class="logo-box">ARK</span>
+                <span class="logo-text">Abdul Rafiq Khan</span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#training" class="nav-link">Training & Certs</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="assets/resume.pdf" class="btn btn-outline nav-btn" download target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-file-arrow-down"></i> Resume
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="pulse-dot"></span> Available for AI/ML & Data Engineering Roles
+                    </div>
+                    <h1 class="hero-title">Abdul Rafiq Khan</h1>
+                    <p class="hero-subtitle">Computer Science Graduate <span class="divider">|</span> AI/ML & Data Science Engineer</p>
+                    <p class="hero-summary">
+                        Skilled in Python, SQL, Deep Learning, and Computer Vision. Specialized in deploying real-time AI solutions, computer vision models, and end-to-end data pipelines for organizational problem-solving.
+                    </p>
+                    
+                    <div class="hero-meta">
+                        <span><i class="fa-solid fa-location-dot"></i> Bhilai, Chhattisgarh, India</span>
+                        <span><i class="fa-solid fa-graduation-cap"></i> CSVTU (2022-2026)</span>
+                    </div>
+
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fa-solid fa-layer-group"></i> Explore Projects
+                        </a>
+                        <a href="assets/resume.pdf" class="btn btn-secondary" download target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-download"></i> Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-tertiary">
+                            <i class="fa-solid fa-paper-plane"></i> Contact Me
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://linkedin.com/in/abdulrafiq-khan" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="mailto:abdulrafiqk8@gmail.com" aria-label="Send Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="tel:+917000857281" aria-label="Phone Number">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="console-card">
+                        <div class="console-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="console-title">ark_profile.py</span>
+                        </div>
+                        <div class="console-body">
+                            <pre><code><span class="keyword">class</span> <span class="class-name">CandidateProfile</span>:
+    <span class="keyword">def</span> <span class="func">__init__</span>(self):
+        self.name = <span class="string">"Abdul Rafiq Khan"</span>
+        self.degree = <span class="string">"B.Tech Computer Science & Engineering"</span>
+        self.location = <span class="string">"Bhilai, Chhattisgarh"</span>
+        self.core_stack = [<span class="string">"Python"</span>, <span class="string">"SQL"</span>, <span class="string">"TensorFlow"</span>, <span class="string">"PyTorch/YOLOv8"</span>]
+        self.focus = [<span class="string">"Computer Vision"</span>, <span class="string">"Data Science"</span>, <span class="string">"Generative AI"</span>]
+
+    <span class="keyword">def</span> <span class="func">get_objective</span>(self):
+        <span class="keyword">return</span> <span class="string">"Eager to contribute through data-driven problem solving and effective collaboration."</span>
+
+<span class="variable">ark</span> = CandidateProfile()
+<span class="builtin">print</span>(ark.get_objective())</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-user"></i> Professional Identity</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card main-about">
+                        <h3 class="card-title"><i class="fa-solid fa-bullseye"></i> Professional Summary</h3>
+                        <p class="about-text">
+                            I am a Computer Science graduate skilled in Python, SQL, Data Science, and AI/ML, seeking an opportunity to apply and further develop my technical and analytical skills in a professional environment. Eager to contribute to organizational goals through data-driven problem solving, continuous learning, and effective collaboration while growing alongside the organization.
+                        </p>
+                        <div class="summary-highlights">
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-brain"></i>
+                                <div>
+                                    <h4>AI & Computer Vision Focus</h4>
+                                    <p>Experience building real-time vision pipelines using YOLOv8, OpenCV, MobileNet V2, and TensorFlow/Keras.</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-chart-line"></i>
+                                <div>
+                                    <h4>Data & Analytical Engineering</h4>
+                                    <p>Proficient in Pandas, NumPy, Power BI, SQL, and Exploratory Data Analysis (EDA) for actionable intelligence.</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-code"></i>
+                                <div>
+                                    <h4>Full Stack Integration</h4>
+                                    <p>Hands-on development with FastAPI, Java (NetBeans), MySQL backend architectures, and web interfaces.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-card info-sidebar">
+                        <h3 class="card-title"><i class="fa-solid fa-address-card"></i> Quick Contact Info</h3>
+                        <ul class="info-list">
+                            <li>
+                                <span class="info-label">Full Name:</span>
+                                <span class="info-val">Abdul Rafiq Khan</span>
+                            </li>
+                            <li>
+                                <span class="info-label">Location:</span>
+                                <span class="info-val">Bhilai, Chhattisgarh, India</span>
+                            </li>
+                            <li>
+                                <span class="info-label">Degree:</span>
+                                <span class="info-val">B.Tech CSE (Core)</span>
+                            </li>
+                            <li>
+                                <span class="info-label">Institution:</span>
+                                <span class="info-val">Shri Shankaracharya Technical Campus - CSVTU</span>
+                            </li>
+                            <li>
+                                <span class="info-label">Email:</span>
+                                <span class="info-val"><a href="mailto:abdulrafiqk8@gmail.com">abdulrafiqk8@gmail.com</a></span>
+                            </li>
+                            <li>
+                                <span class="info-label">Phone:</span>
+                                <span class="info-val"><a href="tel:+917000857281">+91 70008 57281</a></span>
+                            </li>
+                            <li>
+                                <span class="info-label">LinkedIn:</span>
+                                <span class="info-val"><a href="https://linkedin.com/in/abdulrafiq-khan" target="_blank" rel="noopener">abdulrafiq-khan</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-microchip"></i> Technical Capabilities</span>
+                    <h2 class="section-title">Skills & Technologies</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Category 1 -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code-terminal"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-brands fa-python"></i> Python</span>
+                            <span class="skill-tag"><i class="fa-solid fa-database"></i> SQL</span>
+                            <span class="skill-tag"><i class="fa-brands fa-java"></i> Java</span>
+                            <span class="skill-tag"><i class="fa-solid fa-chart-diagram"></i> R</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 2 -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-robot"></i>
+                            <h3>Data Science & AI/ML</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Data Preprocessing</span>
+                            <span class="skill-tag">EDA</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">Data Visualization</span>
+                            <span class="skill-tag">Seaborn</span>
+                            <span class="skill-tag">Matplotlib</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Deep Learning</span>
+                            <span class="skill-tag">Natural Language Processing (NLP)</span>
+                            <span class="skill-tag">Generative AI</span>
+                            <span class="skill-tag">Computer Vision</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 3 -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-cubes"></i>
+                            <h3>Big Data & ML Frameworks</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">Keras</span>
+                            <span class="skill-tag">YOLOv8 (Ultralytics)</span>
+                            <span class="skill-tag">OpenCV</span>
+                            <span class="skill-tag">MobileNet V2</span>
+                            <span class="skill-tag">Big Data</span>
+                            <span class="skill-tag">Hadoop</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 4 -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-chart-column"></i>
+                            <h3>Analytics & Visualization Tools</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-solid fa-chart-pie"></i> Power BI</span>
+                            <span class="skill-tag"><i class="fa-solid fa-file-excel"></i> Microsoft Excel</span>
+                            <span class="skill-tag">RStudio</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 5 -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <h3>Developer Tools & IDEs</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Apache NetBeans</span>
+                            <span class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git</span>
+                            <span class="skill-tag"><i class="fa-brands fa-github"></i> GitHub</span>
+                            <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-diagram-project"></i> Practical Applications</span>
+                    <h2 class="section-title">Technical Projects</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card featured">
+                        <div class="project-header">
+                            <span class="featured-badge"><i class="fa-solid fa-star"></i> Featured Project</span>
+                            <h3 class="project-title">AI-Powered Smart Farming Dashboard with Crop Disease Detection</h3>
+                            <p class="project-tech-stack">
+                                <span>Python</span> • <span>FastAPI</span> • <span>TensorFlow/Keras (MobileNet V2)</span> • <span>MySQL</span> • <span>OpenWeatherMap API</span> • <span>HTML/CSS/JS</span>
+                            </p>
+                        </div>
+                        <div class="project-body">
+                            <ul class="project-bullet-list">
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Developed a smart farming platform with crop disease detection using CNN (MobileNet V2 Transfer Learning), achieving real-time diagnosis with actionable cure recommendations.</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Implemented ML-based intelligent crop and fertilizer recommendation, alongside weather-aware irrigation scheduling using the OpenWeatherMap API.</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Designed a role-based dashboard featuring an admin panel, prediction history tracking, and CSV report exports, backed by a MySQL database.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="project-footer">
+                            <button class="btn btn-sm btn-outline modal-trigger" data-project="project-1">
+                                <i class="fa-solid fa-circle-info"></i> Project Details
+                            </button>
+                            <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-sm btn-secondary">
+                                <i class="fa-brands fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Intelligent Animal Detection and Alert System using YOLOv8</h3>
+                            <p class="project-tech-stack">
+                                <span>Python</span> • <span>OpenCV</span> • <span>YOLOv8 (Ultralytics)</span> • <span>Computer Vision</span> • <span>Deep Learning</span>
+                            </p>
+                        </div>
+                        <div class="project-body">
+                            <ul class="project-bullet-list">
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Developed a real-time computer vision object detection system using YOLOv8 and OpenCV.</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Implemented a priority-based alert mechanism for immediate hazard warnings.</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Engineered for real-world applications in road safety, wildlife monitoring, and smart surveillance.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="project-footer">
+                            <button class="btn btn-sm btn-outline modal-trigger" data-project="project-2">
+                                <i class="fa-solid fa-circle-info"></i> Project Details
+                            </button>
+                            <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-sm btn-secondary">
+                                <i class="fa-brands fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Hotel Management System</h3>
+                            <p class="project-tech-stack">
+                                <span>Java</span> • <span>Apache NetBeans</span> • <span>OOP</span> • <span>GUI & Database Connectivity</span>
+                            </p>
+                        </div>
+                        <div class="project-body">
+                            <ul class="project-bullet-list">
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Developed a desktop system to manage hotel room bookings, customer records, and automatic billing.</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Achieved a <strong>40% reduction in manual booking entry time</strong> through optimized UI/UX and database workflow.</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Built with robust Object-Oriented Design principles and seamless connectivity.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="project-footer">
+                            <button class="btn btn-sm btn-outline modal-trigger" data-project="project-3">
+                                <i class="fa-solid fa-circle-info"></i> Project Details
+                            </button>
+                            <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-sm btn-secondary">
+                                <i class="fa-brands fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Training & Certifications Section -->
+        <section id="training" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-certificate"></i> Specialized Learning</span>
+                    <h2 class="section-title">Certifications & Training</h2>
+                </div>
+
+                <div class="certifications-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fa-brands fa-java"></i>
+                        </div>
+                        <div class="cert-content">
+                            <div class="cert-meta">
+                                <span class="cert-date"><i class="fa-regular fa-calendar"></i> May 2024 – Sep 2024</span>
+                                <span class="cert-provider"><i class="fa-solid fa-building-user"></i> SEED IT Solution</span>
+                            </div>
+                            <h3 class="cert-title">Regular Training on JAVA</h3>
+                            <p class="cert-description">
+                                Completed hands-on training focusing on Core Java architecture, Object-Oriented Programming (OOP), Graphical User Interface (GUI) development, and Relational Database Connectivity (JDBC).
+                            </p>
+                            <div class="cert-tags">
+                                <span class="tag">Core Java</span>
+                                <span class="tag">OOP</span>
+                                <span class="tag">GUI Development</span>
+                                <span class="tag">Database Connectivity</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Academic Background</span>
+                    <h2 class="section-title">Education</h2>
+                </div>
+
+                <div class="timeline">
+                    <!-- Edu Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2022 – 2026</span>
+                                <span class="badge-spi">SPI: 7.6</span>
+                            </div>
+                            <h3 class="degree-title">B.Tech in Computer Science & Engineering (Core)</h3>
+                            <h4 class="institution-name">Shri Shankaracharya Technical Campus, Bhilai - CSVTU</h4>
+                            <p class="education-details">
+                                Specialized in core CS foundational concepts, software engineering principles, algorithms, database management, and hands-on AI/ML project developments.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Edu Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> CBSE Board</span>
+                                <span class="badge-grade">Grade: 65%</span>
+                            </div>
+                            <h3 class="degree-title">Class XII (Senior Secondary)</h3>
+                            <h4 class="institution-name">Central Board of Secondary Education (CBSE)</h4>
+                            <p class="education-details">Coursework in Science and Mathematics.</p>
+                        </div>
+                    </div>
+
+                    <!-- Edu Item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> CBSE Board</span>
+                                <span class="badge-grade">Grade: 72%</span>
+                            </div>
+                            <h3 class="degree-title">Class X (Secondary)</h3>
+                            <h4 class="institution-name">Central Board of Secondary Education (CBSE)</h4>
+                            <p class="education-details">General academics with foundation in Science and Mathematics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Career Highlights / Strengths Section -->
+        <section id="highlights" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-award"></i> Key Strengths</span>
+                    <h2 class="section-title">Professional Highlights</h2>
+                </div>
+
+                <div class="carousel-container">
+                    <div class="carousel-track" id="carousel-track">
+                        <div class="carousel-slide active">
+                            <div class="highlight-card">
+                                <i class="fa-solid fa-chart-line highlight-icon"></i>
+                                <h3>40% Efficiency Optimization</h3>
+                                <p>Successfully engineered a Java-based Hotel Management System that reduced manual booking entry time by 40% through streamlined database connectivity and intuitive user experience.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-slide">
+                            <div class="highlight-card">
+                                <i class="fa-solid fa-eye highlight-icon"></i>
+                                <h3>Real-Time Vision & Surveillance</h3>
+                                <p>Engineered priority-based object detection alerts using YOLOv8 and OpenCV tailored for wildlife monitoring, public road safety, and smart surveillance applications.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-slide">
+                            <div class="highlight-card">
+                                <i class="fa-solid fa-wheat-awn highlight-icon"></i>
+                                <h3>End-to-End AgriTech Solution</h3>
+                                <p>Built a crop disease diagnostic dashboard leveraging MobileNet V2 transfer learning, integrating weather API data for weather-aware smart irrigation scheduling.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-controls">
+                        <button class="carousel-btn prev-btn" id="prev-btn" aria-label="Previous Highlight">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <div class="carousel-dots" id="carousel-dots"></div>
+                        <button class="carousel-btn next-btn" id="next-btn" aria-label="Next Highlight">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-envelope"></i> Get In Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-wrapper">
+                        <h3>Let's Connect & Collaborate</h3>
+                        <p>I am actively seeking technical opportunities in Software Engineering, Data Science, and AI/ML. Feel free to reach out via email, phone, or LinkedIn.</p>
+                        
+                        <div class="contact-cards-list">
+                            <a href="mailto:abdulrafiqk8@gmail.com" class="contact-item-card">
+                                <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="contact-details">
+                                    <span class="label">Email Me</span>
+                                    <span class="val">abdulrafiqk8@gmail.com</span>
+                                </div>
+                            </a>
+
+                            <a href="tel:+917000857281" class="contact-item-card">
+                                <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
+                                <div class="contact-details">
+                                    <span class="label">Call Me</span>
+                                    <span class="val">+91 70008 57281</span>
+                                </div>
+                            </a>
+
+                            <a href="https://linkedin.com/in/abdulrafiq-khan" target="_blank" rel="noopener" class="contact-item-card">
+                                <div class="icon-box"><i class="fa-brands fa-linkedin-in"></i></div>
+                                <div class="contact-details">
+                                    <span class="label">LinkedIn</span>
+                                    <span class="val">linkedin.com/in/abdulrafiq-khan</span>
+                                </div>
+                            </a>
+
+                            <div class="contact-item-card">
+                                <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="contact-details">
+                                    <span class="label">Location</span>
+                                    <span class="val">Bhilai, Chhattisgarh, India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <form id="contact-form" class="contact-form" onsubmit="return false;">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Inquiry regarding AI/ML Opportunity" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Hello Abdul, I came across your portfolio..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+                            <div id="form-status" class="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Details Modal / Drawer -->
+    <div id="project-modal" class="modal-overlay" aria-hidden="true">
+        <div class="modal-container">
+            <button class="modal-close" id="modal-close" aria-label="Close Modal">&times;</button>
+            <div id="modal-content" class="modal-content">
+                <!-- Dynamically filled by index.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo-box">ARK</span>
+                <span>Abdul Rafiq Khan</span>
+            </div>
+            <p class="footer-role">Computer Science Graduate | Data Science & AI/ML Specialist</p>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2026</span> Abdul Rafiq Khan. All rights reserved.</p>
+                <p class="footer-subtext">Designed with Obsidian & Neural Emerald Cyber Aesthetics</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
